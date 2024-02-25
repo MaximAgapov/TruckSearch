@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "FoodTruckSearch\src\Application\Application.csproj", "{8FF508E4-C7AA-461D-89E0-B19FC37B9DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "FoodTruckSearch\src\Domain\Domain.csproj", "{64A64336-54A7-41D3-A30F-ADCD356089BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "FoodTruckSearch\src\Infrastructure\Infrastructure.csproj", "{A60C0724-2DA5-45E6-9324-2EEDE35514C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "FoodTruckSearch\src\Web\Web.csproj", "{9AC969CF-AD08-4909-84CF-530B4D4894C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FF508E4-C7AA-461D-89E0-B19FC37B9DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF508E4-C7AA-461D-89E0-B19FC37B9DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF508E4-C7AA-461D-89E0-B19FC37B9DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF508E4-C7AA-461D-89E0-B19FC37B9DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A64336-54A7-41D3-A30F-ADCD356089BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A64336-54A7-41D3-A30F-ADCD356089BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A64336-54A7-41D3-A30F-ADCD356089BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A64336-54A7-41D3-A30F-ADCD356089BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60C0724-2DA5-45E6-9324-2EEDE35514C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60C0724-2DA5-45E6-9324-2EEDE35514C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60C0724-2DA5-45E6-9324-2EEDE35514C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60C0724-2DA5-45E6-9324-2EEDE35514C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC969CF-AD08-4909-84CF-530B4D4894C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC969CF-AD08-4909-84CF-530B4D4894C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC969CF-AD08-4909-84CF-530B4D4894C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC969CF-AD08-4909-84CF-530B4D4894C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
