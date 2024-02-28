@@ -72,6 +72,10 @@
           "foodItems": {
             "type": "string",
             "nullable": true
+          },
+          "locationId": {
+            "type": "integer",
+            "format": "int32"
           }
         }
       },

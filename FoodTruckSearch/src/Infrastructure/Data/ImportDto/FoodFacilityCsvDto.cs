@@ -20,8 +20,8 @@ public class FoodFacilityCsvDto
     public string? FoodItems { get; set; }
     public string? X { get; set; }
     public string? Y { get; set; }
-    public float Latitude { get; set; }
-    public float Longitude { get; set; }
+    public double Latitude { get; set; }
+    public double Longitude { get; set; }
     public string? Schedule { get; set; }
     public string? dayshours { get; set; }
     public string? NOISent { get; set; }

@@ -1,7 +1,4 @@
-﻿using System.Globalization;
-using AutoMapper;
-using CsvHelper;
-using FoodTruckSearch.Domain.Entities;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -45,10 +42,6 @@ public class ApplicationDbContextInitialiser
             {
                 await _context.Database.MigrateAsync();
             }
-            else
-            {
-                await ApplicationDbContextSeed.SeedSampleDataAsync(_context, _mapper);
-            }
         }
         catch (Exception ex)
         {
@@ -70,12 +63,15 @@ public class ApplicationDbContextInitialiser
         }
     }
 
-    public async Task TrySeedAsync()
+    async Task TrySeedAsync()
     {
         // Seed, if necessary
         if (!_context.FoodFacilityEntities.Any())
         {
-            await _context.SaveChangesAsync();
+            if (_context.Database.IsInMemory())
+            {
+                await ApplicationDbContextSeed.SeedSampleDataAsync(_context, _mapper);
+            }
         }
     }
 }

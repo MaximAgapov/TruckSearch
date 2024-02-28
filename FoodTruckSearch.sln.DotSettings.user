@@ -4,6 +4,9 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::55721BF6-59D6-4EC9-91BE-3818B7DC0ACE::net8.0::TruckTest.Application.UnitTests.Common.Exceptions.ValidationExceptionTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::55721BF6-59D6-4EC9-91BE-3818B7DC0ACE::net8.0::TruckTest.Application.UnitTests.Common.Mappings.MappingTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::484FED09-DC28-472E-A891-21E4FD44451A::net8.0::TruckTest.Application.FunctionalTests.TodoLists.Queries.SearchTrucksByFoodQueryTests.ShouldReturnFoodTrucks&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::484FED09-DC28-472E-A891-21E4FD44451A::net8.0::TruckTest.Application.FunctionalTests.TodoLists.Queries.SearchTrucksByFoodQueryTests.ShouldReturnCaseInsensitive&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::484FED09-DC28-472E-A891-21E4FD44451A::net8.0::TruckTest.Application.FunctionalTests.TodoLists.Queries.SearchTrucksByFoodQueryTests.ShouldSortByDistance&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>

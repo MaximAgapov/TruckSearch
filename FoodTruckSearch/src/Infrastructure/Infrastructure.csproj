@@ -15,7 +15,6 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools"/>
         <PackageReference Include="NetTopologySuite" />
-        <PackageReference Include="ProjNET" />
     </ItemGroup>
 
     <ItemGroup>

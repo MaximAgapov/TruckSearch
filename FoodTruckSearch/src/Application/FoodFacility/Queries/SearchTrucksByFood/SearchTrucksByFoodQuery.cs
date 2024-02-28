@@ -25,7 +25,7 @@ public class SearchTrucksByFoodHandler : IRequestHandler<SearchTrucksByFoodQuery
 
     public async Task<TrucksVm> Handle(SearchTrucksByFoodQuery request, CancellationToken cancellationToken)
     {
-        var currentLocation = new Point(request.Longitude, request.Latitude);
+        var currentLocation = new Point(request.Latitude, request.Longitude);
         return new TrucksVm
         {
             Trucks = await _context.FoodFacilityEntities

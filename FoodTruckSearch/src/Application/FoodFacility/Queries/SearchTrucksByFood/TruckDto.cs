@@ -8,6 +8,7 @@ public class TruckDto
     public string? FacilityType { get; init; }
     public string? Address { get; init; }
     public string? FoodItems { get; init; }
+    public int LocationId { get; init; }
 
     private class Mapping : Profile
     {
